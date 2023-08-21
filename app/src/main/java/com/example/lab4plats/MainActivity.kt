@@ -153,7 +153,7 @@ fun AddCard(card: ItemCard) {
             modifier = Modifier.padding(6.dp)
         ){
             Image(
-                painter = painterResource(android.R.drawable.btn_radio), //prueba con placeholder
+                painter = painterResource(android.R.drawable.ic_dialog_alert), //prueba con placeholder
                 //painter = rememberAsyncImagePainter(url), //prueba con el url del usuario
                 //painter = rememberAsyncImagePainter("https://assets.unileversolutions.com/recipes-v2/216635.jpg"), //prueba con un url ya dado
 
