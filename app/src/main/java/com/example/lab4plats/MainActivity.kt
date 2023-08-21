@@ -153,14 +153,14 @@ fun AddCard(card: ItemCard) {
             modifier = Modifier.padding(6.dp)
         ){
             Image(
-                painter = painterResource(android.R.drawable.ic_dialog_alert), //prueba con placeholder
+                painter = painterResource(android.R.drawable.ic_menu_gallery), //prueba con placeholder
                 //painter = rememberAsyncImagePainter(url), //prueba con el url del usuario
                 //painter = rememberAsyncImagePainter("https://assets.unileversolutions.com/recipes-v2/216635.jpg"), //prueba con un url ya dado
 
                 contentDescription = null,
                 alignment = Alignment.BottomCenter,
                 modifier = Modifier
-                    .padding(3.dp)
+                    .padding(5.dp)
                     .width(20.dp)
                     .height(20.dp),
                 contentScale = ContentScale.Crop
